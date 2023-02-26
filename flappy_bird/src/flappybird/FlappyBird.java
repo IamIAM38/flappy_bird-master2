@@ -46,7 +46,7 @@ public class FlappyBird implements ActionListener, KeyListener {
 
         paused = true;
 
-        t = new Timer(1000/FPS, this);
+        t = new Timer(10/FPS, this);
         t.start();
     }
     public static void main(String[] args) {
